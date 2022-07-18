@@ -1,0 +1,33 @@
+{
+  "name": "@fridey_alpha/vuepress-plugin-lottie-player",
+  "version": "0.0.1",
+  "description": "lottie-player plugins for vuepress",
+  "author": "Fridey Alphaisra Akbar <fridey.alpha@gmail.com>",
+  "homepage": "https://github.com/FrideyAlpha/vuepress-plugins-lottie-player#readme",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrideyAlpha/vuepress-plugins-lottie-player.git"
+  },
+  "keywords": [
+    "vuepress",
+    "lottiefiles",
+    "lottie-player"
+  ],
+  "bugs": {
+    "url": "https://github.com/FrideyAlpha/vuepress-plugins-lottie-player/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@lottiefiles/lottie-player": "^1.5.7"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.2"
+  }
+}
