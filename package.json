@@ -1,6 +1,6 @@
 {
   "name": "@fridey_alpha/vuepress-plugin-lottie-player",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "lottie-player plugins for vuepress",
   "author": "Fridey Alphaisra Akbar <fridey.alpha@gmail.com>",
   "homepage": "https://github.com/FrideyAlpha/vuepress-plugin-lottie-player#readme",
