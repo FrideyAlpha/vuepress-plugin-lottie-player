@@ -68,12 +68,5 @@ export default {
       },
     };
   },
-
-  mounted() {
-    const lottieObject =this.$refs.lottieObject
-    lottieObject.addEventListener("ready", () => {
-      this.$emit("lottiePlayerReady", lottieObject);
-    })
-  },
 };
 </script>
