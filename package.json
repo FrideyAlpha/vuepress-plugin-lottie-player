@@ -25,7 +25,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@lottiefiles/lottie-player": "^1.5.7"
+    "@lottiefiles/vue-lottie-player": "^1.0.9"
   },
   "devDependencies": {
     "vuepress": "^1.9.2"

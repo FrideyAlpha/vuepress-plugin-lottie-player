@@ -991,6 +991,14 @@
     pako "^2.0.4"
     resize-observer-polyfill "^1.5.1"
 
+"@lottiefiles/vue-lottie-player@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@lottiefiles/vue-lottie-player/-/vue-lottie-player-1.0.9.tgz#11d60cf9279e2a1c8a4d80e4cfe673c5181d1db4"
+  integrity sha512-j81AmWaqz4lQ9Eo+6wU3dEX0aYI6mnC27EEafUz9kHS79dDZrWusG4MrJra8Wk2HDTpn1v0NBPWA50OFAnvX7g==
+  dependencies:
+    "@lottiefiles/lottie-player" "^1.5.7"
+    vue "^2.6.12"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -8218,7 +8226,7 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
 
-vue@^2.6.10:
+vue@^2.6.10, vue@^2.6.12:
   version "2.7.7"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.7.7.tgz#e3a966944e461e4abb496c82362e8763e98e6527"
   integrity sha512-osfkncsGCWqtch+YWYxbqTNQ9hl/UQ6TFRkdmK/VqAjuMpxzr5QotFsYpmJ1AB1ez2LJeIKXDmtMkXUotMOTsA==

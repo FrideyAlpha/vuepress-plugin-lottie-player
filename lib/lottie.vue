@@ -1,19 +1,20 @@
 <template>
-<lottie-player
+<lottie-vue-player
   ref="lottieObject"
   :autoplay="autoplay"
-  :controls="controls"
-  :background="background"
+  :playercontrols="playercontrols"
+  :background-color="backgroundColor"
+  :show-color-picker="showColorPicker"
   :loop="loop"
   :mode="mode"
   :speed="speed"
   :src="src"
   :style="style"
-></lottie-player>
+></lottie-vue-player>
 </template>
 
 <script>
-import * as LottiePlayer from "@lottiefiles/lottie-player"
+
 
 export default {
   props: {
@@ -25,17 +26,21 @@ export default {
       type: Boolean,
       default: true,
     },
-    controls: {
+    showColorPicker: {
       type: Boolean,
       default: false,
     },
-    background: {
+    playercontrols: {
+      type: Boolean,
+      default: false,
+    },
+    backgroundColor: {
       type: String,
       default: 'transparent',
     },
     mode: {
       type: String,
-      default: 'normal',
+      default: 'PlayMode.Normal',
     },
     loop: {
       type: Boolean,
