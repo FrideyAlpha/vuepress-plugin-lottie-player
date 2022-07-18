@@ -3,12 +3,12 @@
   "version": "0.0.1",
   "description": "lottie-player plugins for vuepress",
   "author": "Fridey Alphaisra Akbar <fridey.alpha@gmail.com>",
-  "homepage": "https://github.com/FrideyAlpha/vuepress-plugins-lottie-player#readme",
+  "homepage": "https://github.com/FrideyAlpha/vuepress-plugin-lottie-player#readme",
   "main": "index.js",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FrideyAlpha/vuepress-plugins-lottie-player.git"
+    "url": "git+https://github.com/FrideyAlpha/vuepress-plugin-lottie-player.git"
   },
   "keywords": [
     "vuepress",
@@ -16,7 +16,7 @@
     "lottie-player"
   ],
   "bugs": {
-    "url": "https://github.com/FrideyAlpha/vuepress-plugins-lottie-player/issues"
+    "url": "https://github.com/FrideyAlpha/vuepress-plugin-lottie-player/issues"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
